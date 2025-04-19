@@ -1,6 +1,30 @@
-  <?php
-    get_header('');
-  ?> 
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Shopify Expert Services - qunicweb.com">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://qunicweb.com">
+
+
+    <?php wp_head(); ?> 
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <link rel="icon" type="image/png" sizes="32x32" href="https://qunicweb.com/wp-content/uploads/2025/02/favicon-32x32-1.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo esc_url(get_template_directory_uri()); ?>/assets/style.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo esc_url(get_template_directory_uri()); ?>/assets/responsive.css">
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+  </head>
+	  
+<body>
 <!-- ------------PARTNERA AND EXPERTS-------------- -->
 <section  class="mobile_padding partner_and_experts">
     <div class="page-width mx-auto ">
@@ -1497,9 +1521,8 @@ Transform your store with a stunning custom design using the free Dawn theme. En
 </div>
 <!-- END BRAND SECTION -->
 
- 
-<?php
-  get_footer('');
-?>
+
+  </body>
+</html>
 
 
