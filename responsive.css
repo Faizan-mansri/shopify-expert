@@ -1,0 +1,923 @@
+@media screen and (min-width: 990px) {
+.port_right_content .mySwiper {
+    max-height: 369px;
+}    
+.port_left_content {
+    margin-top: -100px;
+}    
+    .page-width, .container{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+}
+
+
+
+@media screen and (max-width:1400px){
+
+    .shopify_heading {
+        font-size: 40px;
+        line-height: 56px;
+    }
+    .large_text {
+        font-size: 40px;
+    }
+    .partner_info {
+        font-size: 16px;
+    }
+    .store_plane_content p {
+        font-size: 16px;
+    }
+    .index-director-content p {
+        font-size: 16px;
+    }
+    .store_plane span.text-5xl {
+    font-size: 40px;
+}
+.project_counter_section .rounded-lg p.text-gray-200.mt-2 {
+    font-size: 16px;
+    padding-top: 0;
+}
+.project_counter_section .rounded-lg p.text-4xl {
+    font-size:40px;
+}
+.our_portfolio_sec h2 {
+    font-size: 40px;
+    line-height: 1.1;
+}
+.port_left_content P {
+    font-size: 16px;
+}
+.our_portfolio_sec ul.tabs li a {
+    padding: 6px  40px;
+    min-width: auto;
+    max-width: 100%;
+    font-size: 15px;
+}
+.our_portfolio_sec .tabs li {
+    min-width: 120px;
+}
+.our-portfolio .swiper-button-next, .our-portfolio .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+}
+.swiper-button-next svg, .swiper-button-prev svg {
+    width: 8px;
+}
+#mega-menu-full-image ul li a {
+    font-size:16px;
+}
+}
+
+
+
+@media screen and (max-width:1300px){
+
+    .shopify_heading {
+        font-size:35px;
+        line-height: 56px;
+    }
+    .large_text {
+        font-size:35px;
+    }
+    .partner_info {
+        font-size: 16px;
+    }
+    .store_plane_content p {
+        font-size: 16px;
+    }
+    .index-director-content p {
+        font-size: 15px;
+    }
+    .store_plane span.text-5xl {
+    font-size: 35px;
+}
+.project_counter_section .rounded-lg p.text-gray-200.mt-2 {
+    font-size: 15px;
+    padding-top: 0;
+}
+.project_counter_section .rounded-lg p.text-4xl {
+    font-size:35px;
+}
+.our_portfolio_sec h2 {
+    font-size: 35px;
+    line-height: 1.1;
+}
+.port_left_content P {
+    font-size: 16px;
+    padding-top: 0;
+}
+.our_portfolio_sec ul.tabs li a {
+    padding: 6px  30px;
+    min-width:auto;
+    max-width:100%;
+}
+.our_portfolio_sec .tabs li {
+    min-width: auto;
+}
+.our-portfolio .swiper-button-next, .our-portfolio .swiper-button-prev {
+    width: 35px;
+    height: 35px;
+}
+.swiper-button-next svg, .swiper-button-prev svg {
+    width: 7px;
+}
+#mega-menu-full-image ul li a {
+    font-size: 14px;
+}
+.store_plane .bg-green-300 {
+    font-size: 13px;
+}
+
+.store_plane .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+}
+.store_plane .plan_price {
+    font-size: 25px;
+}
+.store_plane_innner .shopify_title {
+    font-size: 18px;
+}
+    .store_plane {
+    padding: 50px 0 60px;
+}
+    .shopify_heading {
+        font-size:30px;
+        line-height: 1.5;
+    }
+    .large_text, .review_section h2, .logos_wrpr .cstm_heading h2, .pro_heading{
+        font-size:30px;
+    }
+.project_counter_section  .rounded-lg {
+   padding-top: 38px;
+}
+}
+
+
+@media screen and (max-width:1200px){
+    
+.cstm_header .header_btn {
+    font-size: 13px;
+    padding: 10px;
+}
+#mega-menu-full-image ul li {
+    margin-left: 17px;
+}
+.cstm_header .shopify_logo svg {
+    height:35px;
+}
+.shopify_logo  span {
+    font-size: 11px;
+    padding-left: 45px;
+    margin-top: -3px;
+}
+#mega-menu-full-image {
+    margin-left: 0;
+    padding-left: 0;
+}
+.port_right_content .mySwiper {
+    max-height: 273px;
+}
+.explore_our_services .bg-white.p-6.rounded-lg {
+    max-width: 194px;
+}
+.explore_our_services .grid {
+   gap:20px;
+}
+}
+
+@media screen and (max-width:1024px){
+        .port_right_content .mySwiper {
+    max-height: 496px;
+}
+
+    .partner_info {
+        font-size: 14px;
+    }
+    .store_plane_content p {
+        font-size: 14px;
+    }
+    .index-director-content p {
+        font-size: 14px;
+    }
+    .store_plane span.text-5xl {
+    font-size: 30px;
+}
+.project_counter_section .rounded-lg p.text-gray-200.mt-2 {
+    font-size: 14px;
+    padding-top: 0;
+}
+.project_counter_section .rounded-lg p.text-4xl {
+    font-size:30px;
+}
+.our_portfolio_sec h2 {
+    font-size: 30px;
+    line-height: 1.1;
+}
+.port_left_content P {
+    font-size: 14px;
+}
+.our_portfolio_sec ul.tabs li a {
+    padding: 6px  30px;
+    min-width:auto;
+    max-width:100%;
+}
+.our_portfolio_sec .tabs li {
+    min-width: auto;
+}
+.our-portfolio .swiper-button-next, .our-portfolio .swiper-button-prev {
+    width: 35px;
+    height: 35px;
+}
+.swiper-button-next svg, .swiper-button-prev svg {
+    width: 7px;
+}
+#mega-menu-full-image ul li a {
+    font-size: 14px;
+}
+.cstm_header .nav_btn {
+    width: 28%;
+}
+}
+
+@media screen and (max-width:991px){
+    .port_right_content .mySwiper {
+    max-height: 496px;
+}
+    .store_plane_innner ul li {
+    color: #000;
+    font-size: 12px;
+}
+#index_footer .shopify_logo  svg {
+    height: 50px;
+    width: 220px;
+}
+#index_footer  .shopify_logo  span {
+    margin-top: -9px;
+}
+#mega-menu-full-image {
+    margin-left: 0;
+    margin-top: 15px;
+}
+.cstm_header .cstm_nav {
+    width: 72%;
+}
+#mega-menu-full-image ul li {
+    margin-left: 18px;
+}
+#mega-menu-full-image ul li a {
+    font-size: 15px;
+}
+.cstm_header .nav_btn a {
+    font-size: 12px;
+    padding: 8px 6px;
+}
+.explore_our_services .grid {
+    justify-content: unset;
+}
+.partner_and_experts {
+    padding: 30px 0 75px;
+}
+#mega-menu-full-image {
+    padding-left: 0;
+}
+}
+
+ 
+@media screen and (min-width:768px){
+
+.ts_project_box {
+    flex-direction: column; 
+}
+.ts_project_box img {
+    max-height:500px; 
+}
+.cstm_header .cstm_nav {
+        width: 82%;
+        box-sizing: border-box; 
+    }
+.cstm_header .nav_btn {
+    width: 20%;
+    box-sizing: border-box;
+    text-align: center;
+    max-width: 206px;
+}
+.shopify_logo.text-white {
+      width:100%;
+     width:150px; 
+}  
+} 
+ 
+@media screen and (max-width:768px){
+    .faq-container.page-width {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .faq-wrpr {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .page-template-default .cstm_blog {
+        margin: 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .faq-wrpr .faq-question {
+        font-size: 16px;
+    }
+    .custom-template-main {
+        padding: 45px 0 !important;
+    }
+    .custom-template-main .custom-template-content {
+        width: 295px;
+        padding: 35px 10px;
+    }
+   .custom-template-main .content-heading {
+        font-size: 25px;
+        text-align: center;
+    }
+    .custom-template-content {
+        width: 400px;
+        margin: 0 15px;
+        padding: 26px 8px;
+
+    }
+    .custom-template-main {
+        margin-top: 98px;
+        z-index:0 !important;
+    }
+    #about {
+    padding-top:130px;
+    padding-bottom:50px;
+}
+#about .about_img {
+    padding: 0;
+    order: -1;
+}
+.index-director-content .mobile_sub_text img {
+    font-size: 12px !important;
+}   
+#index_footer ul.mt-6.space-y-4.text-sm {
+    margin-top: 15px;
+}    
+.footer-heading {
+    margin-bottom: 11px !important;
+}
+    .footer_our_work {
+    border-bottom: 0 !important;
+    padding-bottom: 15px !important;
+}
+.copy_right {
+    padding-top: 10px;
+}
+.store_plane_content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.cstm_service_wrpr {
+    padding-top: 130px;
+}
+.cstm_careers {
+    padding-top: 90px;
+}    
+.cstm_careers .text-3xl {
+    font-size: 21px;
+    line-height: 1.5;
+}
+.tabbedPanels.desktop_padding {
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+.tabbedPanels  .ts_project_box {
+    height: 350px;
+}
+.tabbedPanels  .tabs li a {
+    min-width: 135px;
+    padding: 7px 34px;
+}
+    
+.store-setup {
+    padding: 50px 0;
+}   
+    .cstm_blog {
+    padding-top: 70px; 
+}
+.cstm_header .shopify_logo svg {
+    height: 30px;
+    width:217px;
+}
+.index-director-content {
+    margin-top:5px;
+}
+.partner_directory_wrpr .pb-2 {
+    padding-bottom: 8px;
+    font-weight: 700;
+}
+.richtext.about-text, .business_description{
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-top: 1px solid rgb(221 224 228);
+    padding-top: 15px;
+    margin-top: 20px;
+}
+.business_description {
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.partner_directory_wrpr .font-button-weight {
+    font-weight: 700;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    font-size: 1rem;
+}
+.large_text, .review_section h2, .logos_wrpr .cstm_heading h2, .pro_heading {
+    font-size:25px !important;
+}
+.port_mobile_btn {
+    display: block;
+    position: absolute;
+    z-index: 99999;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.our_portfolio_sec .swiper-slide {
+    height: 440px;
+}   
+.port_desktop_btn {
+    display: none;
+}
+.our_portfolio_sec .ts_project_info {
+    position: absolute;
+    top: 75%;
+    transform: translate(-50%, -50%);
+}
+.port_left_content  {
+    padding: 0 !important;
+}
+ #mega-menu-full-image ul {
+    position: relative;
+    padding-top: 40px;
+}   
+#mega-menu-full-image:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    top: 101px;
+    left: 0;
+}
+.store_plane_innner ul li {
+    color: #000;
+    font-size: 13px;
+}
+#mega-menu-full-image ul li {
+    margin-left: 0;
+}
+#mega-menu-full-image ul li a {
+    font-size: 16px;
+}
+.store_plane .store_plane_innner {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.cstm_header  .page-width {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}    
+.mobile_padding.partner_and_experts {
+    padding: 135px 0 50px;
+}
+.bg_gradient.cstm_header {
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    top: 0;
+    z-index: 9;
+    padding-bottom: 0;
+}
+    
+ .partner_directory_wrpr {
+    margin-top: -17px;
+}
+    .partner-footer-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#partners-directory #partners-directory {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#partners-directory .h-global-header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+    .directory_logo  .shopify_logo {
+    left: 5px !important;
+}
+    .directory_logo .shopify_logo  span {
+    padding-left: 9px !important;
+}
+.directory_logo .shopify_logo svg {
+    width: 187px !important;
+    height:27px;
+}
+.directory_logo  .shopify_logo {
+    left: -9px;
+}
+.directory_sec .directory_logo {
+    width: 8rem;
+    height: 8rem;
+}
+    .directory_logo {
+        position: relative;
+}
+    .directory_sec .logo-heading {
+    font-size: 1.5rem;
+}
+#toggle-open {
+    top: 30%;
+    z-index: 9999;
+    position:absolute;
+    right: 12px;
+}
+.cstm_header .mobile_logo {
+    display: block;
+    width: 57%;
+}
+#mega-menu-full-image {
+            top: -18px;
+     margin-left: 0;
+    position: fixed;
+    height: 109vh;
+    z-index: 99;
+    background: linear-gradient(262.51deg, #0E5F66 7.08%, #0E2628 93.59%);
+    left: 0;
+
+    padding-left: 20px;
+}
+/*    .port_right_content {*/
+/*    order: -1;*/
+/*}*/
+    .deskrop_portfolio_text {
+    display: none;
+}
+.mobile_portfolio_text {
+    display:block;
+}
+section.explore_our_services h3 {
+    font-size: 17px;
+    text-align: center;
+}
+.explore_our_services .flex.justify-center.mb-4 {
+    justify-content: center;
+}
+.our-portfolio .swiper-button-next, .our-portfolio .swiper-button-prev {
+    top: 88%;
+}
+.our-portfolio  .swiper-button-next {
+    left: 75% !important;
+}
+.our-portfolio .swiper-button-prev {
+    left: 13% !important;
+}
+.port_left_content {
+    padding: 0;
+}
+.project_counter_info {
+    margin-bottom: 15px;
+}   
+.project_counter_section  .grid {
+    gap: 15px;
+}    
+.store_plane_content  .store_plane_innner ul li {
+    color: #000;
+    font-size: 15px;
+}
+.scope_text {
+    margin-bottom: 11px;
+}
+.plan_price {
+    font-size:28px;
+}
+.store_plane_innner .store_plane h3 {
+    text-align: center;
+}
+.store_plane_innner .store_plane h3 {
+    text-align: center;
+}
+section.store_plane .store-setup {
+    padding: 50px 0;
+}    
+.store_plane .grid {
+    padding: 0;
+    gap:25px;
+}
+.store_plane .store_plane_innner {
+    padding: 0;
+}
+.index-partner-directory .partner-directory-info {
+    padding: 0;
+    margin: 0;
+}    
+    .index-partner-directory .bg-cover {
+    order: -1;
+    margin-bottom: 30px;
+}
+section.explore_our_services {
+    padding: 50px 0 50px;
+}
+.index-partner-directory {
+    padding: 50px 0;
+}
+.page-width{
+     padding-left:15px  !important;
+     padding-right:15px  !important;
+}
+.explore_our_services .bg-white.p-6.rounded-lg {
+    max-width:240px;
+    margin: 0 auto;
+    width: 100%;
+}   
+.explore_our_services .text-left {
+    padding: 0;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.index-partner-directory {
+    text-align: center;
+}
+.index-partner-directory .shopify_logo {
+    display: none;
+}
+.index-director-content p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+.index-director-content {
+    padding:0;
+}
+.explore_our_services .grid {
+    padding: 0;
+}
+.partner_and_experts .mobile_heading {
+    margin-bottom: 6px !important;
+    line-height: 1.5;
+} 
+.partner_and_experts .ts_left {
+    -webkit-order: -1 !important; /* Safari */
+    -moz-order: -1 !important;    /* Firefox */
+    -ms-flex-order: -1 !important; /* IE 10 */
+    order: -1 !important;
+    padding-bottom: 20px;
+}
+
+.partner_and_experts .page-width {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.partner_and_experts .experts_text {
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+    .store_plane_grid{
+            grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    }
+    
+    .review_item {
+        padding: 15px;
+    }
+    .review_main  p {
+        font-size: 13px;
+    }
+    .project_counter_section  .rounded-lg {
+        border: 2px solid #ffffff61;
+    }
+    .review_section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .after_before_wrpr p {
+        font-size: 15px;
+        max-width: 100%;
+    }
+section.our_portfolio_sec {
+    padding-top: 50px;
+    padding-bottom: 0;
+    text-align: center;
+}
+    .our_portfolio_sec ul.tabs li a {
+        font-size: 13px;
+    }
+    .logos_wrpr {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .after_before_wrpr {
+        background: linear-gradient(97.85deg, #00A584 0.53%, #58D0B8 97.11%);
+        padding: 80px 0;
+    }
+    .after_before_wrpr {
+        padding:50px 0;
+    }
+    .project_counter_section {
+        padding-top: 50px;
+        padding-bottom:50px;
+    }
+    .pro_heading {
+        font-size: 26px;
+    }
+    .after_before_wrpr #container {
+        width: clamp(17rem, 90vw, 50rem);
+    }
+    .shopify_heading {
+        font-size:25px;
+        line-height: 1.2;
+    }
+    .large_text {
+        font-size:26px;
+    }
+    .partner_info {
+        font-size:14px;
+    }
+
+    .store_plane span.text-5xl {
+    font-size: 26px;
+}
+.project_counter_section .rounded-lg p.text-gray-200.mt-2 {
+    font-size:16px;
+    padding-top: 0;
+}
+.project_counter_section .rounded-lg p.text-4xl {
+    font-size:30px;
+}
+.project_counter_info {
+    margin-bottom: 25px;
+}
+.our_portfolio_sec h2 {
+    font-size:26px;
+    line-height: 1.1;
+}
+.port_left_content P {
+    font-size: 14px;
+    margin-bottom:0;
+}
+.our_portfolio_sec ul.tabs li a {
+    padding: 6px  20px;
+    min-width: auto;
+    max-width: 100%;
+    font-size: 15px;
+}
+
+.our-portfolio .swiper-button-next, .our-portfolio .swiper-button-prev {
+    width: 35px;
+    height: 35px;
+    margin-top: -10px;
+}
+ .bg_gradient {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .showcase-hundred-vh.media {
+        min-height: auto;
+    }
+.mobile_padding{
+    padding:50px 0;
+}
+#mega-menu-full-image ul li {
+    margin-bottom: 15px;
+}
+.showcase-right-blocks {
+    margin-top: 40px;
+}
+    .experts_text {
+        margin-bottom: 51px;
+        padding-right: 0;
+    }
+    .partner_and_experts .shopify_logo {
+        margin-bottom: 15px;
+    }
+    .partner_text {
+        font-size: 12px;
+    }
+    .mobile_heading {
+        font-size:24px;
+        line-height: 1.5;
+    }
+    .showcase-spacing {
+        padding: 0;
+    }
+    .partner_info {
+        font-size: 15px;
+        max-width: 100%;
+    }
+.mobile_sub_text{
+    font-size: 15px !important;
+}
+.collapse-toggle-button {
+    position: absolute;
+    top: 17px;
+    right: 0;
+}
+#mega-menu-full-image {
+    padding-left: 20px;
+    padding-top:29px;
+}
+    .header-wrapper .header_inner {
+        background-color: #ffff;
+        position: fixed;
+        z-index: 99999999;
+        width: 100%;
+    }
+    #mega-menu-full-cta ul {
+        border-top: 1px solid #ccc;
+        height: 100%;
+        background: #fff;
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+    }
+.header-wrapper .header_inner{
+    background-color: #ffff;
+}
+#mega-menu-full-cta ul li {
+    line-height: 1.9;
+}
+#mega-menu-full-cta ul li a {
+    font-size: 20px; 
+}
+.partner_and_experts h1 {
+    font-size: 25px;
+}
+.portfolio_section .gallery figure {
+    flex-basis:50%;
+}
+.projectFactsWrap .item {
+    padding: 20px 0px;
+}
+.store-setup p {
+    font-size: 14px;
+}
+.panelContainer {
+    padding-top: 15px;
+}
+.tabs a {
+    font-size: 14px;
+}
+button.mega-menu-btn {
+    display: flex;
+}
+.projectFactsWrap .item p.number {
+    font-size: 30px;
+}
+.projectFactsWrap .item p {
+    font-size: 20px;
+    letter-spacing: 0;
+}
+.video_paginations {
+    margin-top: 20px;
+}
+.video_paginations .swiper-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal {
+    width: calc(75% - 15px);
+
+}
+.social_media {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+    gap: 10px;
+    margin-top: 15px;
+}
+.video_navs .button-prev svg, .video_navs .button-next svg {
+    width: 35px;
+}
+.store-setup .title-font {
+    font-size: 14px;
+}
+.shopify_logo.text-white {
+    width: 120px;
+    border: 0 !important;
+    padding-bottom: 0; 
+    z-index: 99;
+}
+.footer_grid div {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 25px;
+  }
+.our_portfolio_sec .tabs li {
+    min-width: 48%;
+}
+}
+
+
+
+
+
+
