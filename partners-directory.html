@@ -1,10 +1,52 @@
-<?php
-/*
-Template Name: Partners
-*/
-get_header('partner');
-?>
+    <nav class="bg_gradient cstm_header">
+      <div class="flex page-width flex-wrap justify-between items-center mx-auto">
+        <div class="flex cstm_nav flex-wrap">
+        <div class="shopify_logo text-white">  
+			  <a href="<?php echo esc_url(home_url()); ?>">
+  <img src="https://qunicweb.com/wp-content/uploads/2025/02/1-logo.jpg" />
+			   </a>
+            </div>
+          
+          <div id="mega-menu-full-image" class="items-center justify-between pl-5 hidden w-full md:flex md:w-auto md:order-1">
+              <div class="mobile_logo">
+                          <div class="shopify_logo text-white">  
+			  <a href="<?php echo esc_url(home_url()); ?>">
+						<svg viewBox="0 0 200 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[175px] h-[28px] sm:w-[200px] sm:h-[32px] md:w-[225px] md:h-[36px] transition-all opacity-100 translate-x-0 delay-300"><path d="M24.346 6.07805C24.3234 5.92163 24.1874 5.83224 24.074 5.83224C23.9607 5.83224 21.5351 5.65348 21.5351 5.65348C21.5351 5.65348 19.8577 3.99989 19.6536 3.82113C19.4723 3.64236 19.1096 3.68705 18.9736 3.73174C18.9509 3.73174 18.6109 3.84347 18.0215 4.02224C17.4548 2.391 16.4574 0.916176 14.7119 0.916176C14.6666 0.916176 14.6212 0.916176 14.5532 0.916176C14.0772 0.290495 13.4425 0 12.9211 0C8.84074 0 6.89124 5.0278 6.27919 7.57521C4.69239 8.06682 3.55896 8.40201 3.42295 8.4467C2.53888 8.71485 2.51621 8.73719 2.40287 9.56399C2.31219 10.1897 0 27.8428 0 27.8428L18.0215 31.1723L27.7917 29.0942C27.7917 29.0718 24.3687 6.23447 24.346 6.07805ZM17.0241 4.29039C16.5707 4.42446 16.0493 4.58088 15.5053 4.75965C15.5053 4.64792 15.5053 4.55854 15.5053 4.42446C15.5053 3.44125 15.3693 2.6368 15.1426 1.98877C16.0493 2.12285 16.6387 3.12841 17.0241 4.29039ZM14.0092 2.21223C14.2585 2.83791 14.4172 3.7094 14.4172 4.91607C14.4172 4.98311 14.4172 5.0278 14.4172 5.09483C13.4198 5.40767 12.3544 5.72052 11.2663 6.0557C11.8783 3.75409 13.0344 2.6368 14.0092 2.21223ZM12.8077 1.0726C12.9891 1.0726 13.1704 1.13963 13.3291 1.25136C12.0143 1.8547 10.6316 3.37421 10.0422 6.43558C9.18077 6.70373 8.34203 6.94953 7.54863 7.19534C8.22869 4.87138 9.88349 1.0726 12.8077 1.0726Z" fill="#95BF47"></path><path d="M24.074 5.80986C23.9607 5.80986 21.5351 5.63109 21.5351 5.63109C21.5351 5.63109 19.8577 3.97751 19.6537 3.79874C19.5857 3.7317 19.495 3.68701 19.4043 3.68701L18.0442 31.1723L27.8143 29.0941C27.8143 29.0941 24.3914 6.23443 24.3687 6.07801C24.3234 5.92159 24.1874 5.83221 24.074 5.80986Z" fill="#5E8E3E"></path><path d="M14.7119 11.1284L13.5105 14.659C13.5105 14.659 12.445 14.1003 11.1529 14.1003C9.24877 14.1003 9.1581 15.2847 9.1581 15.5752C9.1581 17.1841 13.4198 17.8097 13.4198 21.5862C13.4198 24.5582 11.5156 26.4799 8.93141 26.4799C5.82582 26.4799 4.26169 24.5805 4.26169 24.5805L5.10042 21.8767C5.10042 21.8767 6.73256 23.2621 8.09268 23.2621C8.99942 23.2621 9.36211 22.5694 9.36211 22.0554C9.36211 19.9549 5.87116 19.8655 5.87116 16.402C5.87116 13.497 7.97933 10.6814 12.2637 10.6814C13.8958 10.6591 14.7119 11.1284 14.7119 11.1284Z" fill="white"></path><path d="M39.194 17.765C38.2192 17.2511 37.7205 16.8042 37.7205 16.2008C37.7205 15.4411 38.4232 14.9495 39.5113 14.9495C40.7808 14.9495 41.9142 15.4634 41.9142 15.4634L42.7983 12.7819C42.7983 12.7819 41.9822 12.1562 39.5793 12.1562C36.2244 12.1562 33.8895 14.0556 33.8895 16.7148C33.8895 18.2343 34.9776 19.3739 36.4284 20.2007C37.6072 20.8488 38.0152 21.318 38.0152 22.0107C38.0152 22.7258 37.4258 23.3068 36.3377 23.3068C34.7283 23.3068 33.1868 22.48 33.1868 22.48L32.2347 25.1615C32.2347 25.1615 33.6402 26.1 36.0204 26.1C39.466 26.1 41.9595 24.4241 41.9595 21.4074C41.9369 19.7538 40.6901 18.6142 39.194 17.765Z" fill="#fff"></path><path d="M52.9311 12.1112C51.2309 12.1112 49.8935 12.9157 48.8734 14.1223L48.8281 14.1L50.3015 6.50244H46.4705L42.7302 25.8539H46.5612L47.8307 19.2395C48.3294 16.7368 49.6441 15.1949 50.8682 15.1949C51.7296 15.1949 52.0697 15.7759 52.0697 16.6027C52.0697 17.1167 52.0243 17.7647 51.911 18.2787L50.4602 25.8539H54.2912L55.7873 18.0329C55.946 17.2061 56.0593 16.2228 56.0593 15.5525C56.082 13.3849 54.9486 12.1112 52.9311 12.1112Z" fill="#fff"></path><path d="M64.7641 12.1113C60.1397 12.1113 57.0795 16.2229 57.0795 20.8038C57.0795 23.7311 58.9156 26.0998 62.3612 26.0998C66.895 26.0998 69.9552 22.0999 69.9552 17.4073C69.9779 14.6811 68.3684 12.1113 64.7641 12.1113ZM62.8826 23.1948C61.5678 23.1948 61.0238 22.0999 61.0238 20.7144C61.0238 18.5469 62.1572 15.0163 64.2427 15.0163C65.6028 15.0163 66.0562 16.1783 66.0562 17.2955C66.0562 19.6195 64.9001 23.1948 62.8826 23.1948Z" fill="#fff"></path><path d="M79.7933 12.1113C77.2091 12.1113 75.7357 14.3683 75.7357 14.3683H75.6903L75.917 12.3348H72.5167C72.358 13.6979 72.0407 15.7984 71.746 17.3626L69.0711 31.217H72.9021L73.9675 25.6082H74.0582C74.0582 25.6082 74.8516 26.0998 76.3024 26.0998C80.8134 26.0998 83.7603 21.5412 83.7603 16.938C83.7603 14.3906 82.6042 12.1113 79.7933 12.1113ZM76.121 23.2395C75.1236 23.2395 74.5342 22.6809 74.5342 22.6809L75.1689 19.1502C75.6223 16.7816 76.8691 15.2174 78.2065 15.2174C79.3853 15.2174 79.748 16.29 79.748 17.2955C79.748 19.7536 78.2745 23.2395 76.121 23.2395Z" fill="#fff"></path><path d="M89.2462 6.68115C88.022 6.68115 87.0473 7.64202 87.0473 8.87104C87.0473 9.98832 87.7727 10.7704 88.8608 10.7704H88.9061C90.1076 10.7704 91.1276 9.96598 91.1503 8.58054C91.1503 7.46325 90.4022 6.68115 89.2462 6.68115Z" fill="#fff"></path><path d="M83.8737 25.8317H87.7046L90.3115 12.4019H86.4579L83.8737 25.8317Z" fill="#fff"></path><path d="M100.082 12.3793H97.4068L97.5428 11.7537C97.7695 10.4576 98.5402 9.31798 99.8324 9.31798C100.512 9.31798 101.056 9.51909 101.056 9.51909L101.805 6.5471C101.805 6.5471 101.147 6.21191 99.719 6.21191C98.3589 6.21191 96.9988 6.59179 95.956 7.46328C94.6413 8.55822 94.0292 10.1448 93.7345 11.7537L93.6212 12.3793H91.8304L91.2636 15.2396H93.0545L91.0143 25.8315H94.8453L96.8854 15.2396H99.5377L100.082 12.3793Z" fill="#fff"></path><path d="M109.33 12.4019C109.33 12.4019 106.928 18.3682 105.862 21.6307H105.817C105.749 20.5804 104.865 12.4019 104.865 12.4019H100.83L103.142 24.7144C103.187 24.9825 103.165 25.1613 103.051 25.3401C102.598 26.1892 101.85 27.016 100.966 27.6193C100.24 28.1333 99.4243 28.4685 98.7896 28.6919L99.855 31.9097C100.626 31.7533 102.258 31.1053 103.618 29.8539C105.363 28.245 106.996 25.7423 108.65 22.3457L113.343 12.4019H109.33Z" fill="#fff"></path></svg>
+						<span>Partner and Experts</span>
+			   </a>
+            </div>
+              </div>
+            <ul class="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse">
+				<li><a href="about.html">About</a></li>
+				<li><a href="partners-director.html">Partners directory</a></li>
+				<li><a href="project.html">Project</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="careers.html">Careers</a></li>
+				<li><a href="contact-us.html">Contact us</a></li>
 
+            </ul>
+          </div>
+        </div>
+
+        <!-- Mobile Toggle Button -->
+        <button id="toggle-open"  type="button" class="inline-flex collapse-toggle-button items-center p-2 w-10 h-10 justify-center text-sm text-white md:hidden">
+            <div  class="toggel_svg"> 
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </div>
+          <div class="close_svg">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="25px" height="25px" fill-rule="nonzero"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M9.15625,6.3125l-2.84375,2.84375l15.84375,15.84375l-15.9375,15.96875l2.8125,2.8125l15.96875,-15.9375l15.9375,15.9375l2.84375,-2.84375l-15.9375,-15.9375l15.84375,-15.84375l-2.84375,-2.84375l-15.84375,15.84375z"/></g></g></svg>
+          </div>
+        </button>
+
+        <!-- Book an Appointment Button -->
+        <div class="nav_btn">
+        <a href="/contact-us" class="bg-white  text-gray-800 header_btn px-4 py-2 rounded hover:bg-gray-200 transition duration-300 hidden md:block">Book An Appointment</a>
+        </div>
+      </div>
+    </nav>
 
 <div  class="partner_directory_wrpr">
   <div class="page-width">
@@ -3659,7 +3701,76 @@ button {
  
 </style>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+<script type="module" src="node_modules/@material-tailwind/html@latest/scripts/popover.js"></script>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>  
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> 
+<script>
+$(document).ready(function() {
+const wrapper = document.querySelector('.after_before_wrpr'); 
+const imgAfter = wrapper.querySelector('.img-wrapper:nth-of-type(2)');
+const line = wrapper.querySelector('#line');
+const slider = wrapper.querySelector('#slider');
 
-<?php
-  get_footer('partners');
-?>
+slider.addEventListener('input', () => {
+  line.style.left = `${slider.value}%`;   
+  imgAfter.style.clipPath = `inset(0px 0px 0px ${slider.value}%)`;
+});
+
+
+slider.addEventListener('dblclick', () => {
+  slider.value = 50;
+  line.style.left = '50%';
+  imgAfter.style.clipPath = 'inset(0px 0px 0px 50%)';
+});
+
+
+var swiper;
+function initSwiper(selector) {
+    if (swiper) {
+        swiper.destroy(true, true);
+    }
+
+    swiper = new Swiper('.our_portfolio_sec ' + selector, { 
+        slidesPerView: 2,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 2.5,
+                spaceBetween: 20,
+            },
+            991: {
+                slidesPerView:2.5,
+                spaceBetween: 20,
+            },
+            1024: {
+                slidesPerView: 2.5,
+                spaceBetween: 30,
+            },
+        },
+    });
+}
+
+
+   </script>
+<script type="module" src="https://unpkg.com/@material-tailwind/html@latest/scripts/popover.js" defer></script>
+<script src="custom.js" defer></script>
