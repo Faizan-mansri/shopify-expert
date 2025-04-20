@@ -50,11 +50,11 @@ html {
 } 
 @font-face {
   font-family:'Poppins';
-  src: url('/Poppins-Light.ttf');
+  src: url('Poppins-Light.ttf');
 }
 @font-face {
   font-family:'Poppins reguler';
-  src: url('/Poppins-Medium.ttf');
+  src: url('Poppins-Medium.ttf');
 }
 
 a{
