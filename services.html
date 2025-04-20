@@ -344,6 +344,79 @@ $(document).ready(function() {
 </div>
 <!-- END BRAND SECTION -->
 
-<?php
-  get_footer();
-?> 
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+<script type="module" src="node_modules/@material-tailwind/html@latest/scripts/popover.js"></script>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>  
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> 
+<script>
+$(document).ready(function() {
+const wrapper = document.querySelector('.after_before_wrpr'); 
+const imgAfter = wrapper.querySelector('.img-wrapper:nth-of-type(2)');
+const line = wrapper.querySelector('#line');
+const slider = wrapper.querySelector('#slider');
+
+slider.addEventListener('input', () => {
+  line.style.left = `${slider.value}%`;   
+  imgAfter.style.clipPath = `inset(0px 0px 0px ${slider.value}%)`;
+});
+
+
+slider.addEventListener('dblclick', () => {
+  slider.value = 50;
+  line.style.left = '50%';
+  imgAfter.style.clipPath = 'inset(0px 0px 0px 50%)';
+});
+
+
+var swiper;
+function initSwiper(selector) {
+    if (swiper) {
+        swiper.destroy(true, true);
+    }
+
+    swiper = new Swiper('.our_portfolio_sec ' + selector, { 
+        slidesPerView: 2,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 2.5,
+                spaceBetween: 20,
+            },
+            991: {
+                slidesPerView:2.5,
+                spaceBetween: 20,
+            },
+            1024: {
+                slidesPerView: 2.5,
+                spaceBetween: 30,
+            },
+        },
+    });
+}
+
+
+   </script>
+<script type="module" src="https://unpkg.com/@material-tailwind/html@latest/scripts/popover.js" defer></script>
+<script src="custom.js" defer></script>
+
+</html>
