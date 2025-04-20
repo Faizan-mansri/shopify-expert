@@ -1,0 +1,163 @@
+<?php
+/*
+Template Name: Contact Us
+*/
+
+?>
+  <?php
+    get_header('');
+  ?> 
+
+<div class="custom-template-main">
+<div class="content-heading">
+<h2>Book An Appointment</h2>
+</div>
+   <div class="custom-template-content">
+
+    <?php 
+
+    echo do_shortcode('[contact-form-7 id="6be2a9b" title="Contact us"]'); 
+    ?>
+</div> 
+</div>
+<?php
+  get_footer('');
+?>
+
+
+
+<style>
+.custom-template-content .logo {
+    margin-bottom: 40px;
+}
+    .custom-template-content {
+    padding-top: 200px;
+}
+  
+body {
+    margin: 0;
+}
+.screen-reader-response {
+    display: none;
+}
+span.wpcf7-not-valid-tip {
+    color: red;
+}
+.content-heading {
+    margin-bottom: 30px;
+    font-size: 38px;
+    color: #fff;
+    text-align: center;
+    z-index: 9;
+    opacity: 0.8;
+}
+.custom-template-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    position: relative;
+    flex-direction: column;
+    z-index: 99999;
+    width: 100%;
+    background: #0e4f55;
+    /* background: url("https://qunicweb.com/wp-content/uploads/2025/02/Web-Mobile-Development-Agency-in-California-eCommerce-Shopify-Experts-02-28-2025_12_31_PM.png") no-repeat center/cover; */
+}
+.custom-template-main:after {
+    content: "";
+    position: absolute;
+    background: #0000007d;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.custom-template-content {
+    z-index: 99;
+}
+.custom-template-content {
+  width: 400px;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.custom-template-main form {
+    display: flex;
+    margin-bottom: 0;
+    flex-direction: column;
+}
+.wpcf7-submit:hover {
+    background: #000;
+    border-color: #000;
+}
+
+.custom-template-main form p {
+  margin-bottom: 15px;
+}
+
+.custom-template-main form label {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    display: block;
+     margin-top: -10px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.wpcf7-form-control {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.wpcf7-text, .wpcf7-email, .wpcf7-textarea {
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  margin-bottom: 10px;
+  transition: 0.3s ease;
+}
+
+.wpcf7-text:focus, .wpcf7-email:focus, .wpcf7-textarea:focus {
+  border-color: #fff;
+}
+
+.wpcf7-textarea {
+  resize: none;
+}
+
+.wpcf7-submit {
+    background: #0265DC;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family: sans-serif;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+.wpcf7-submit:hover {
+  color: #fff;
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.wpcf7-response-output {
+  margin-top: 15px;
+  color: #0f0;
+}
+
+</style>
+
